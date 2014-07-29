@@ -319,6 +319,9 @@ void ADCT_GUI::representacionGraficaMes(){
     }
 }
 
+/**
+ * Este método hace visible la interfaz gráfica del usuario destinada a crear nuevos eventos.
+ */
 void ADCT_GUI::nuevoEvento(){ 
     widget.tableView->setVisible(false);
     widget.pushButton->setVisible(false);
@@ -329,6 +332,9 @@ void ADCT_GUI::nuevoEvento(){
     widget.frame->setVisible(true);
 }
 
+/**
+ * Este método hace visible la interfaz gráfica del usuario destinada a mostrar los eventos ya creados.
+ */
 void ADCT_GUI::backToEventos(){
     widget.tableView->setVisible(true);
     widget.pushButton->setVisible(true);
